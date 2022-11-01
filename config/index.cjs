@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '972689bb0bd1f442f34432e3a6aee77e',
 
-  PROVINCE: '陕西',
-  CITY: '西安',
+  PROVINCE: '安徽',
+  CITY: '池州',
 
   USERS: [
     {
@@ -25,7 +25,7 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'VoGUPx2YNdnG5H7zmbLBenWS7Bj1etiKMYDinWOXS6U',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '9-13',
+      horoscopeDate: '09-13',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -44,7 +44,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-02-15' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+       // { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
